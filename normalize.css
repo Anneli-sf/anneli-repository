@@ -7,6 +7,11 @@
     border: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 ol li,
 ul li {
     list-style: none;
@@ -19,6 +24,7 @@ a:visited {
 a:hover {
     text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -54,6 +60,4 @@ button,
 textarea {
     font-family: inherit;
 }
-html {
-    scroll-behavior: smooth;
-}
+
