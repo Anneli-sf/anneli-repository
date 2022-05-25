@@ -76,11 +76,8 @@ a:focus:after {
 }
 
 .burger-menu {
-    /* display: flex; */
-    /* justify-content: space-around; */
     width: 100%;
 }
-
 
 .main {
     padding-top: 65px;
@@ -94,7 +91,6 @@ a:focus:after {
 }
 
 .section {
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     gap: 0.5%;
@@ -154,7 +150,6 @@ a:focus:after {
 .contacts-items {
     display: flex;
     flex-direction: column;
-    /* align-items: left; */
 }
 
 .contacts-item {
@@ -242,7 +237,6 @@ a:focus:after {
 }
 
 .languages-item:last-child {
-    /* display: flex; */
     justify-content: right;
 }
 
@@ -285,7 +279,6 @@ a:focus:after {
     display: flex;
     flex-direction: column;
     width: 45%;
-    /* justify-content: space-between; */
 }
 
 .skills-section-title {
@@ -381,7 +374,6 @@ code {
     align-items: center;
     justify-content: space-between;
     width: 45%;
-    /* overflow: hidden; */
 
     background-color: #E6B8E2;
     border-radius: 15px;
@@ -416,8 +408,4 @@ code {
 .projects-item p {
     text-align: center;
     margin: 0 5px;
-}
-
-
-.footer {
 }

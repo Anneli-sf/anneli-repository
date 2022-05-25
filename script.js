@@ -6,6 +6,10 @@ const burgerLink = document.querySelectorAll('.header-item');
 burgerButton.addEventListener('click', openBurgerMenu);
 burgerMenu.addEventListener('click', closeBurgerMenu);
 burgerLink.forEach(link => link.addEventListener('click', closeBurgerMenu));
+BODY.addEventListener('click', (el) => {
+    if (!el.target.closest('.burger-menu') && !el.target.closest('.burger-button') ) 
+    closeBurgerMenu();
+})
 
 
 function openBurgerMenu() {
